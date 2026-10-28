@@ -3,28 +3,49 @@ body {
     background-image: url("images/table.png");
     background-size: cover;
     font-weight: bold;
+    font-size: 24px;
     color: white;
     text-align: center;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: goldenrod;
+    font-size: 64px;
+    margin: 0 0 20px;
+}
+
+p {
+    margin: 10px 0;
 }
 
 #message-el {
     font-style: italic;
 }
 
+.buttons {
+    display: flex;
+    gap: 16px;
+    margin: 24px 0;
+}
+
 button {
+    font-family: inherit;
+    font-size: 20px;
     color: #016f32;
-    width: 150px;
+    width: 200px;
     background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px 0;
     font-weight: bold;
     border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e0b13a;
 }
