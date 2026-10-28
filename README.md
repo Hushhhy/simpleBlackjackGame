@@ -4,7 +4,7 @@ A simple Blackjack game in the browser: draw two cards, ask for more, and try to
 
 Project from the [Scrimba Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack) (*JavaScript Fundamentals* module).
 
-**🌐 Live demo:** [your-link.netlify.app](https://your-link.netlify.app)
+**🌐 Live demo:** [Scrimba Blackjack Game](https://scrimblackjack.netlify.app)
 
 ![Screenshot of the Blackjack game](./images/screenshot.png)
 
